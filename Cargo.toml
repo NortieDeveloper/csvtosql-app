@@ -1,0 +1,13 @@
+[package]
+name = "csvtosql-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = "0.19"
+gloo-file = "0.2.1"
+csv = "1.1"
+web-sys = {version="0.3", features=["File", "Document", "Element", "Clipboard", "Navigator"]}
+csvtosql-core = "0.2.1"
