@@ -1,4 +1,6 @@
 # csvtosql-app
+https://heroic-croquembouche-5d709f.netlify.app/
+
 This is a small, experimental, WASM based web application for generating sql table creation statements from a csv file. It should be broken out into separate components in the future, as the entire app is one big component at the moment.
 
 All processing is done on device, and no backend server is involved.
